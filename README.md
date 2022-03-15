@@ -1,24 +1,14 @@
-# README
+# CREATE REACT MUSIC LIST APP USING CLASS COMPONENTS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Create Rails Backend
+** BONUS: Get set up in case I get there **
 
-Things you may want to cover:
+## Create React Folders and Files
 
-* Ruby version
+### Functional Folder
+### Class Folder
 
-* System dependencies
+### Rails-BE Folder
+** BONUS: Get files created in case I get there **
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+---
