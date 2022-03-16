@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import SongFormF from './functional/songForm'
+import SongFormC from './class/songForm'
+import SongListF from './functional/songList'
+import SongListC from './class/songList'
 
+// functional component
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Songs That Give Me Dopamine</h1>
+      <hr />
+
+      <SongListC header='Class Component Song List' />
+
+      <hr />
+
+      <SongListF header='Functional Song List' />
+      
     </div>
   );
 }
