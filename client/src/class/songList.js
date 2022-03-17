@@ -1,5 +1,8 @@
 import React from 'react'
 import SongFormC from './songForm'
+import Header from '../style-components/Header'
+import Button from '../style-components/Button'
+import Img from '../style-components/Image'
 
 // Format for class components
 class SongListC extends React.Component{
@@ -40,15 +43,15 @@ class SongListC extends React.Component{
         // returning the songs objects and then mapping over them
         return this.state.songs.map(s => {
             return(
-                <div className='song'>
+                <div>
                     {/* Shows title of the song */}
-                    <h3>{s.title}</h3>
+                    <Header text={s.title} as='h2' />
                     {/* Class name as 'artist' so I can italicize it */}
-                    <p className='artist'>{s.artist}</p>
+                    <p>{s.artist}</p>
                     {/* Class name as 'image' to control the size and setting the url as an src so it will appear as an image on the page */}
-                    <img className='image' src={s.album} />
+                    <Img src={s.album} />
                     {/* Delete button that filters out the songs with the title being deleted */}
-                    <p><button className='button' onClick={() => this.deleteSong(s.title)}>Delete</button></p>
+                    <p><Button onClick={() => this.deleteSong(s.title)}>Delete</Button></p>
                 </div>
             )
         })
@@ -64,10 +67,10 @@ class SongListC extends React.Component{
         return(
             <div>
                 {/* Button to toggle showing the form using the toggleForm function as the onClick handler */}
-                <button className='button' onClick={this.toggleForm}>{this.state.showForm ? 'Hide' : 'Show'}</button>
+                <Button onClick={this.toggleForm}>{this.state.showForm ? 'Hide' : 'Show'}</Button>
                 {/* Shows the form from SongFormC based on if it is true or false */}
                 {this.state.showForm && <SongFormC addSong={this.addSong} />}
-                <h2>Class Component Song List</h2>
+                <Header text='Class Component Song List' as='h1' />
                 {/* Calling the renderSongs function to show the songs */}
                 {this.renderSongs()}
             </div>

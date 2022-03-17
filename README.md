@@ -46,3 +46,23 @@ this.setState({
 })
 ...
 ```
+
+## Style
+
+### Styled Components
+- Add styled components to project
+- Create own styled components
+- Add a hover and other pseduo selectors
+- Utilize flexbox
+- media query
+
+## Style Libraries
+
+### Bootstrap
+- Add Bootstrap to app
+    - Table
+    - Card
+    - Grid
+    - Form
+- Chose own components from React Bootstrap
+- Cave colors in separate file and import them
