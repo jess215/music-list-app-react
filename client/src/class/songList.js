@@ -3,6 +3,9 @@ import SongFormC from './songForm'
 import Header from '../style-components/Header'
 import Button from '../style-components/Button'
 import Img from '../style-components/Image'
+import Container from '../style-components/Container'
+import Text from '../style-components/Text'
+import Song from '../style-components/Song'
 
 // Format for class components
 class SongListC extends React.Component{
@@ -47,7 +50,7 @@ class SongListC extends React.Component{
                     {/* Shows title of the song */}
                     <Header text={s.title} as='h2' />
                     {/* Class name as 'artist' so I can italicize it */}
-                    <p>{s.artist}</p>
+                    <Text artist>{s.artist}</Text>
                     {/* Class name as 'image' to control the size and setting the url as an src so it will appear as an image on the page */}
                     <Img src={s.album} />
                     {/* Delete button that filters out the songs with the title being deleted */}
@@ -67,12 +70,12 @@ class SongListC extends React.Component{
         return(
             <div>
                 {/* Button to toggle showing the form using the toggleForm function as the onClick handler */}
-                <Button onClick={this.toggleForm}>{this.state.showForm ? 'Hide' : 'Show'}</Button>
+                <Button onClick={this.toggleForm}>{this.state.showForm ? 'Hide Form' : 'Show Form'}</Button>
                 {/* Shows the form from SongFormC based on if it is true or false */}
                 {this.state.showForm && <SongFormC addSong={this.addSong} />}
                 <Header text='Class Component Song List' as='h1' />
                 {/* Calling the renderSongs function to show the songs */}
-                {this.renderSongs()}
+                <Song>{this.renderSongs()}</Song>
             </div>
         )
     }

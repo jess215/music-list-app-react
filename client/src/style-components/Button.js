@@ -1,11 +1,7 @@
 import styled,{css} from 'styled-components'
 import {
-    PRIMARY_COLOR,
-    SECONDARY_COLOR,
-    TERTIARY_COLOR,
     BUTTON_COLOR,
     BACKGROUND_COLOR,
-    TEXT_COLOR
 } from './Styles'
 
 const Button = styled.button`

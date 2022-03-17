@@ -1,5 +1,7 @@
 import React from 'react'
 import Button from '../style-components/Button'
+import Container from '../style-components/Container'
+import Text from '../style-components/Text'
 
 class SongFormC extends React.Component{
     // Setting the props
@@ -49,19 +51,19 @@ class SongFormC extends React.Component{
 
     render() {
         return(
-            <div>
+            <Container>
                 <form onSubmit={this.handleSubmit}>
                     {/* Form header */}
-                    <p>Title:</p> 
+                    <Text>Title:</Text> 
                     {/* Form input field, assigning a name, which should match the key, and telling it to update the value to the setState, giving an onChange handler so that when the input is changed the value is updated */}
                     <input name='title' value={this.state.title} onChange={this.handleChange} />
-                    <p>Artist:</p> 
+                    <Text>Artist:</Text> 
                     <input name='artist' value={this.state.artist} onChange={this.handleChange} />
-                    <p>Album Image URL:</p> 
+                    <Text>Album Image URL:</Text> 
                     <input name='album' value={this.state.album} onChange={this.handleChange} />
                     <p><Button className='button'>Add</Button></p>
                 </form>
-            </div>
+            </Container>
         )
     }
   
