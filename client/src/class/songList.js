@@ -1,5 +1,5 @@
 import React from 'react'
-import SongFormC from './songForm'
+import SongFormC from './SongForm'
 import Header from '../style-components/Header'
 import Button from '../style-components/Button'
 import Img from '../style-components/Image'
