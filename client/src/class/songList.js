@@ -69,11 +69,11 @@ class SongListC extends React.Component{
     render() {
         return(
             <div>
+                <Header text='Class Component Song List' as='h1' />
                 {/* Button to toggle showing the form using the toggleForm function as the onClick handler */}
                 <Button onClick={this.toggleForm}>{this.state.showForm ? 'Hide Form' : 'Show Form'}</Button>
                 {/* Shows the form from SongFormC based on if it is true or false */}
                 {this.state.showForm && <SongFormC addSong={this.addSong} />}
-                <Header text='Class Component Song List' as='h1' />
                 {/* Calling the renderSongs function to show the songs */}
                 <Song>{this.renderSongs()}</Song>
             </div>

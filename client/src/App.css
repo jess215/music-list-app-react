@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  color: #4F90C2;
+}
+
+.title {
+  color: #21D5A8;
+}
+
+.artist {
+  color: #5D737E;
+  font-style: italic;
+}
+
+.album {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #FF8E15;
+}
+
+.song {
+  display: flex;
+  justify-content: space-between;
+}
