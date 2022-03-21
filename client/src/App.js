@@ -1,10 +1,7 @@
-import logo from './logo.svg';
 // import './App.css';
-import SongFormF from './functional/SongForm'
-import SongFormC from './class/SongForm'
 import SongListF from './functional/SongList'
 import SongListC from './class/SongList'
-import { BACKGROUND_COLOR, PRIMARY_COLOR } from './style-components/Styles'
+import { BACKGROUND_COLOR } from './style-components/Styles'
 import Header from './style-components/Header';
 import Songs from './rails/Songs';
 

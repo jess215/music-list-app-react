@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Songs from './rails/Songs'
 import SongShow from './rails/SongShow'
-import SongForm from './rails/SongForm'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -14,8 +13,6 @@ ReactDOM.render(
     <Route path='/' element={<App />} />
     <Route path='/songs' element={<Songs />} />
     <Route path='/songs/:id' element={<SongShow />} />
-    <Route path='songs/new' element={<SongForm />} />
-    <Route path='songs/:id/edit' element={<SongForm />} />
   </Routes>
   </BrowserRouter>,
 

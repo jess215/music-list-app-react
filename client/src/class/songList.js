@@ -3,7 +3,6 @@ import SongFormC from './SongForm'
 import Header from '../style-components/Header'
 import Button from '../style-components/Button'
 import Img from '../style-components/Image'
-import Container from '../style-components/Container'
 import Text from '../style-components/Text'
 import Song from '../style-components/Song'
 
@@ -70,12 +69,12 @@ class SongListC extends React.Component{
         return(
             <div>
                 <Header text='Class Component Song List' as='h1' />
-                {/* Button to toggle showing the form using the toggleForm function as the onClick handler */}
-                <Button onClick={this.toggleForm}>{this.state.showForm ? 'Hide Form' : 'Show Form'}</Button>
                 {/* Shows the form from SongFormC based on if it is true or false */}
                 {this.state.showForm && <SongFormC addSong={this.addSong} />}
                 {/* Calling the renderSongs function to show the songs */}
                 <Song>{this.renderSongs()}</Song>
+                {/* Button to toggle showing the form using the toggleForm function as the onClick handler */}
+                <Button onClick={this.toggleForm}>{this.state.showForm ? 'Hide Form' : 'New Song Form'}</Button>
             </div>
         )
     }

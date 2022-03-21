@@ -2,6 +2,9 @@ import React, {useState, useEffect} from 'react'
 import {useNavigate} from 'react-router-dom'
 import axios from 'axios'
 import Song from './Song'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+import { Button, Table, Card, Grid, Form } from 'react-bootstrap'
 
 const Songs = () => {
     const navigate = useNavigate()
@@ -45,6 +48,9 @@ const Songs = () => {
     return (
         <div>
             <h2>Songs from Rails Back End</h2>
+            <Button type="button" class="btn btn-outline-primary"
+                onClick={() => navigate('/songs/new')}>Test Button</Button>
+            {/* <button type="button" class="btn btn-outline-primary" onClick={() => navigate('/songs/nes')}>New Song</button> */}
             <button onClick={() => navigate('/songs/new')}>New Song</button>
             <div>
             {renderSongs()}
