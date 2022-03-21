@@ -17,7 +17,7 @@ const Song = (props) => {
 
                 <p><button onClick={() => deleteSong(id)}>Delete</button>
                 <button onClick={() => navigate(`/songs/${id}/edit`, {state: {title, artist, album}})}>Edit</button>
-                <button onClick={() => navigate(`/monsters/${id}`, {state: {title, artist, album}})}>Show</button></p>
+                <button onClick={() => navigate(`/songs/${id}`, {state: {title, artist, album}})}>Show</button></p>
         </div>
     )
 }

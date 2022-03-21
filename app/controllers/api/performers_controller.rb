@@ -48,7 +48,7 @@ class Api::PerformersController < ApplicationController
     end
 
     def performer_params
-        params.require(:performer).permit(:name, :song)
+        params.require(:performer).permit(:name, :age, :image, :bio, :song)
     end
 
 end
