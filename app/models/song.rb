@@ -1,3 +1,3 @@
 class Song < ApplicationRecord
-    has_many :performer
+    has_many :performers, dependent: :destroy
 end

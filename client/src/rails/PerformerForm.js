@@ -22,9 +22,13 @@ const PerformerForm = (props) => {
             <p>id: {props.id}</p>
             <form onSubmit={handleSubmit}>
                 <p>Name:</p>
+                <input value={name} onChange={(e) => setName(e.target.value)} />
                 <p>Age:</p>
+                <input value={age} onChange={(e) => setAge(e.target.value)} />
                 <p>Image:</p>
+                <input value={image} onChange={(e) => setImage(e.target.value)} />
                 <p>Bio:</p>
+                <input value={bio} onChange={(e) => setBio(e.target.value)} />
             </form>
         </div>
     )

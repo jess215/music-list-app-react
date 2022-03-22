@@ -1,5 +1,8 @@
 import React from 'react'
 import PerformerForm from './PerformerForm'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+import { Button, Table, Card, Grid, Form } from 'react-bootstrap'
 
 const Performer = (props) => {
     return (

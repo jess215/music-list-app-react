@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import Performer from './Performer'
+import PerformerForm from './PerformerForm'
 import { useLocation, useParams } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import { Button, Table, Card, Grid, Form } from 'react-bootstrap'
-import PerformerForm from './PerformerForm'
 
 const SongShow = () => {
   const [performers, setPerformers] = useState ([])
@@ -35,7 +35,9 @@ const SongShow = () => {
   }
 
   const renderPerformers = () => {
-    return performers.map(p => <Performer deletePerformer={deletePerformer} key={p.id} {...p} updatePerformer={updatePerformer}/>)
+    return performers.map(p => {
+      return <Performer key={p.id} {...p} deletePerformer={deletePerformer} updatePerformer={updatePerformer}/>
+    })
   }
 
   const params = useParams()

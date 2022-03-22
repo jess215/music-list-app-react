@@ -1,7 +1,7 @@
 class Api::PerformersController < ApplicationController
 
     before_action :set_song, except: [:performers_all]
-    beffore_action :set_performer, only:[:show, :update, :destroy]
+    before_action :set_performer, only:[:show, :update, :destroy]
     
     def index
         render json: @song.performers
@@ -12,7 +12,7 @@ class Api::PerformersController < ApplicationController
     end
 
     def show
-        render json: @performers
+        render json: @performer
     end
 
     def create
