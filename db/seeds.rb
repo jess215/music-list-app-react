@@ -23,78 +23,78 @@ cas = Song.create(title: 'Castle', artist: 'Halsey', album: 'https://upload.wiki
 ### STRAY KIDS ###
 # Bang Chan
 thun.performers.create(name:'Bang Chan', age:24, 
-    image:'https://static.wikia.nocookie.net/stray-kids/images/c/c7/NO_EASY_Bang_Chan_promotional_photo.jpg/revision/latest/scale-to-width-down/150?cb=20210813095946', 
+    image:'https://lv2-cdn.azureedge.net/straykids/cedde9bc82824e03961b730d105d9ebb-[CLEAN]SKZ_RED_TEASER_BANGCHAN.jpg', 
     bio:'He is the leader, producer, songwriter, composer, lead vocalist, rapper and dancer of the group.')
 
 # Felix
 thun.performers.create(name:'Felix', age:21, 
-    image:'https://static.wikia.nocookie.net/stray-kids/images/e/e2/Stray_kids_no_easy_concept_Felix.jpg/revision/latest/scale-to-width-down/150?cb=20211205170033', 
+    image:'https://lv2-cdn.azureedge.net/straykids/74018b83700e4781a583e896b6bcdd31-[CLEAN]SKZ_RED_TEASER_FELIX.jpg', 
     bio:'He is the lead dancer, lead rapper and sub-vocalist of the South Korean boy group.')
 
 # Hyunjin
 thun.performers.create(name:'Hyunjin', age:22, 
-    image:'https://static.wikia.nocookie.net/stray-kids/images/8/80/NO_EASY_Hyunjin_promotional_photo.jpg/revision/latest/scale-to-width-down/150?cb=20210813095531', 
+    image:'https://lv2-cdn.azureedge.net/straykids/a8b21cb1fc81492bb784a00f4495bbbe-[CLEAN]SKZ_RED_TEASER_HYUNJIN.jpg', 
     bio:'He is the main dancer, lead rapper, sub-vocalist and the visual of the group.')
 
 # Lee Know
 thun.performers.create(name:'Lee Know', age:23, 
-    image:'https://static.wikia.nocookie.net/stray-kids/images/f/f9/NO_EASY_Lee_Know_promotional_photo.jpg/revision/latest/scale-to-width-down/150?cb=20210813095833', 
+    image:'https://lv2-cdn.azureedge.net/straykids/137c8ceacf4f44e7b29fd355c4ab9e95-[CLEAN]SKZ_RED_TEASER_LEEKNOW.jpg', 
     bio:'He is the dance leader, main dancer, vocalist, rapper, and visual of the group.')
 
 # I.N.
 thun.performers.create(name:'I.N.', age:21, 
-    image:'https://static.wikia.nocookie.net/stray-kids/images/c/c1/NO_EASY_I.N_promotional_photo.jpg/revision/latest/scale-to-width-down/150?cb=20210813094938', 
+    image:'https://lv2-cdn.azureedge.net/straykids/5b53a040de7148a1b73884655628d3a2-[CLEAN]SKZ_RED_TEASER_I.N.jpg', 
     bio:'He is the vocalist and the maknae of the group.')
 
 # Han
 thun.performers.create(name:'Han', age:21, 
-    image:'https://static.wikia.nocookie.net/stray-kids/images/d/d8/NO_EASY_Han_promotional_photo.jpg/revision/latest/scale-to-width-down/150?cb=20210813095414', 
+    image:'https://lv2-cdn.azureedge.net/straykids/23fa2d1fb9e54a4b9ada0418a2153291-[CLEAN]SKZ_RED_TEASER_HAN.jpg', 
     bio:'He is the main rapper, lead vocalist and producer of the group.')
 
 # Changbin
 thun.performers.create(name:'Changbin', age:22, 
-    image:'https://static.wikia.nocookie.net/stray-kids/images/1/14/Changbin_IN_Life_Teaser_Image_%281%29.jpg/revision/latest/scale-to-width-down/150?cb=20200828183441', 
+    image:'https://lv2-cdn.azureedge.net/straykids/de3233090d8e4715be596af862caaf13-[CLEAN]SKZ_RED_TEASER_CHANGBIN.jpg', 
     bio:'He is the main rapper, sub-vocalist and producer of the group.')
 
 # Seungmin
 thun.performers.create(name:'Seungmin', age:21, 
-    image:'https://static.wikia.nocookie.net/stray-kids/images/0/0d/NO_EASY_Seungmin_promotional_photo.jpg/revision/latest/scale-to-width-down/150?cb=20210813095118', 
+    image:'https://lv2-cdn.azureedge.net/straykids/0cdd78f1762c4f54b4876add44b3db07-[CLEAN]SKZ_RED_TEASER_SEUNGMIN.jpg', 
     bio:'He is the main vocalist of the group.')
 
 ### BTS ###
 # RM
 mik.performers.create(name:'RM', age:27, 
-    image:'https://upload.wikimedia.org/wikipedia/commons/5/5d/RM_for_Dispatch_%22Boy_With_Luv%22_MV_behind_the_scene_shooting%2C_15_March_2019_05.jpg', 
+    image:'https://www.allkpop.com/upload/2021/06/content/301114/1625066064-e5i4llbvuaayyi6.jpg', 
     bio:'He is the leader and a rapper.')
 
 # V
 mik.performers.create(name:'V', age:26, 
-    image:'https://static.wikia.nocookie.net/the-bangtan-boys/images/2/25/V_Butter_Album_Version_4_%281%29.jpg/revision/latest/scale-to-width-down/350?cb=20210630150954', 
+    image:'https://www.allkpop.com/upload/2021/06/content/301115/1625066129-e5i4iysviamluty.jpg', 
     bio:'He is a vocalist, a dancer and a visual.')
 
 # Jungkook
 mik.performers.create(name:'Jungkook', age:24, 
-    image:'https://static.wikia.nocookie.net/the-bangtan-boys/images/7/79/Jungkook_Portal.png/revision/latest/scale-to-width-down/350?cb=20210706203825', 
+    image:'https://www.allkpop.com/upload/2021/06/content/301115/1625066137-e5i4iytucai4qtn.jpg', 
     bio:'He is a vocalist, the center, a dancer, a visual and the maknae.')
 
 # Jimin
 mik.performers.create(name:'Jimin', age:26, 
-    image:'https://static.wikia.nocookie.net/the-bangtan-boys/images/e/ec/Jimin_Butter_Album_Version_4_%281%29.jpg/revision/latest/scale-to-width-down/350?cb=20210630150908', 
+    image:'https://www.allkpop.com/upload/2021/06/content/301115/1625066121-e5i4lkluuaa5n74.jpg', 
     bio:'He is a vocalist and a dancer.')
 
 # Suga
 mik.performers.create(name:'Suga', age:29, 
-    image:'https://static.wikia.nocookie.net/the-bangtan-boys/images/6/63/Suga_Butter_Album_Version_4_%281%29.jpg/revision/latest/scale-to-width-down/350?cb=20210630150810', 
+    image:'https://www.allkpop.com/upload/2021/06/content/301114/1625066084-e5i4lk-uyae1gar.jpg', 
     bio:'He is a rapper and producer.')
 
 # Jin
 mik.performers.create(name:'Jin', age:29, 
-    image:'https://static.wikia.nocookie.net/the-bangtan-boys/images/d/d3/Jin_Butter_Album_Version_4_%281%29.jpg/revision/latest/scale-to-width-down/350?cb=20210630150734', 
+    image:'https://www.allkpop.com/upload/2021/06/content/301114/1625066070-e5i4lj-vuamuj62.jpg', 
     bio:'He is a vocalist and a visual.')
 
 # J-Hope
 mik.performers.create(name:'J-Hope', age:28, 
-    image:'https://static.wikia.nocookie.net/the-bangtan-boys/images/b/b8/J-Hope_Butter_Album_Version_4_%281%29.jpg/revision/latest/scale-to-width-down/350?cb=20210630150839', 
+    image:'https://www.allkpop.com/upload/2021/06/content/301115/1625066113-e5i4iysvuaczizk.jpg', 
     bio:'He is a rapper and a dancer.')
 
 ### NCT DREAM ###
@@ -222,7 +222,7 @@ shine.performers.create(name:'E Dawn', age:27,
 
 ### KREWELLA
 # Jahan
-green.performers.create(name:'Jahan yousaf', age:32, 
+green.performers.create(name:'Jahan Yousaf', age:32, 
     image:'https://starsunfolded.com/wp-content/uploads/2016/12/Jahan-Yousaf.jpg', 
     bio:'One of the two female members of Krewella.')
 

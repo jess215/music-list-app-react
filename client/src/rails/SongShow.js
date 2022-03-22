@@ -49,7 +49,7 @@ const SongShow = () => {
       <h2>{location.state.title}</h2>
       <p>ID: {params.id}</p>
       <PerformerForm addPerformer={addPerformer} />
-      {renderPerformers()}
+      <div style={{display: 'flex', flexDirection: 'row'}}>{renderPerformers()}</div>
       <p>{JSON.stringify(performers)}</p>
     </div>
   )
